@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 7
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -113,17 +113,6 @@ Wire Wire Line
 Connection ~ 4440 1670
 Wire Wire Line
 	4440 1670 3820 1670
-$Comp
-L Custom_Library:+5.5V #PWR?
-U 1 1 5BB91E85
-P 3820 1590
-F 0 "#PWR?" H 3820 1440 50  0001 C CNN
-F 1 "+5.5V" H 3820 1730 50  0000 C CNN
-F 2 "" H 3820 1590 50  0001 C CNN
-F 3 "" H 3820 1590 50  0001 C CNN
-	1    3820 1590
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3820 1590 3820 1670
 Connection ~ 3820 1670
@@ -1240,4 +1229,15 @@ Wire Wire Line
 	2620 4570 4170 4570
 Wire Wire Line
 	2620 4470 4270 4470
+$Comp
+L Custom_Library:+5.5V_MNG #PWR?
+U 1 1 5BBB1D38
+P 3820 1590
+F 0 "#PWR?" H 3820 1440 50  0001 C CNN
+F 1 "+5.5V_MNG" H 3820 1730 50  0000 C CNN
+F 2 "" H 3820 1590 50  0001 C CNN
+F 3 "" H 3820 1590 50  0001 C CNN
+	1    3820 1590
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
