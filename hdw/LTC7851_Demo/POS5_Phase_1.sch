@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 13
+Sheet 4 15
 Title ""
 Date ""
 Rev ""
@@ -23,44 +23,14 @@ L Custom_Library:C_Custom C?
 U 1 1 5BB875B8
 P 3820 1900
 F 0 "C?" H 3845 2000 50  0000 L CNN
-F 1 "C" H 3845 1800 50  0000 L CNN
+F 1 "1uF" H 3845 1800 50  0000 L CNN
 F 2 "" H 3858 1750 50  0001 C CNN
 F 3 "" H 3845 2000 50  0001 C CNN
-F 4 "Foot" H 3670 2000 50  0000 R CNN "display_footprint"
-F 5 "V" H 3670 1900 50  0000 R CNN "Voltage"
-F 6 "Er" H 3670 1800 50  0000 R CNN "Dielectric"
+F 4 "0603" H 3670 2000 50  0000 R CNN "display_footprint"
+F 5 "16V" H 3670 1900 50  0000 R CNN "Voltage"
+F 6 "X7R" H 3670 1800 50  0000 R CNN "Dielectric"
 F 7 "PN" H 4245 2400 60  0001 C CNN "Digi-Key PN"
 	1    3820 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Library:R_Custom R?
-U 1 1 5BB8777F
-P 4440 1900
-F 0 "R?" H 4340 1900 50  0000 R CNN
-F 1 "R" V 4440 1900 50  0000 C CNN
-F 2 "" H 4440 1900 50  0001 C CNN
-F 3 "" H 4440 1900 50  0001 C CNN
-F 4 "PN" H 4740 2300 60  0001 C CNN "Digi-Key PN"
-F 5 "Foot" H 4540 1980 50  0000 L CNN "display_footprint"
-F 6 "Tol" H 4540 1900 50  0000 L CNN "Tolerance"
-F 7 "W" H 4540 1820 50  0000 L CNN "Wattage"
-	1    4440 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Library:C_Custom C?
-U 1 1 5BB87B44
-P 4440 2430
-F 0 "C?" H 4465 2530 50  0000 L CNN
-F 1 "C" H 4465 2330 50  0000 L CNN
-F 2 "" H 4478 2280 50  0001 C CNN
-F 3 "" H 4465 2530 50  0001 C CNN
-F 4 "Foot" H 4290 2530 50  0000 R CNN "display_footprint"
-F 5 "V" H 4290 2430 50  0000 R CNN "Voltage"
-F 6 "Er" H 4290 2330 50  0000 R CNN "Dielectric"
-F 7 "PN" H 4865 2930 60  0001 C CNN "Digi-Key PN"
-	1    4440 2430
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -335,13 +305,13 @@ L Custom_Library:R_Custom R?
 U 1 1 5BB9AE0E
 P 6240 3030
 F 0 "R?" H 6140 3030 50  0000 R CNN
-F 1 "R" V 6240 3030 50  0000 C CNN
+F 1 "2" V 6240 3030 50  0000 C CNN
 F 2 "" H 6240 3030 50  0001 C CNN
 F 3 "" H 6240 3030 50  0001 C CNN
 F 4 "PN" H 6540 3430 60  0001 C CNN "Digi-Key PN"
-F 5 "Foot" H 6340 3110 50  0000 L CNN "display_footprint"
-F 6 "Tol" H 6340 3030 50  0000 L CNN "Tolerance"
-F 7 "W" H 6340 2950 50  0000 L CNN "Wattage"
+F 5 "0603" H 6340 3110 50  0000 L CNN "display_footprint"
+F 6 "1%" H 6340 3030 50  0000 L CNN "Tolerance"
+F 7 "1/10W" H 6340 2950 50  0000 L CNN "Wattage"
 	1    6240 3030
 	-1   0    0    -1  
 $EndComp
@@ -350,12 +320,12 @@ L Custom_Library:C_Custom C?
 U 1 1 5BB9AE19
 P 6240 3410
 F 0 "C?" H 6265 3510 50  0000 L CNN
-F 1 "C" H 6265 3310 50  0000 L CNN
+F 1 "0.1uF" H 6265 3310 50  0000 L CNN
 F 2 "" H 6278 3260 50  0001 C CNN
 F 3 "" H 6265 3510 50  0001 C CNN
-F 4 "Foot" H 6090 3510 50  0000 R CNN "display_footprint"
-F 5 "V" H 6090 3410 50  0000 R CNN "Voltage"
-F 6 "Er" H 6090 3310 50  0000 R CNN "Dielectric"
+F 4 "0603" H 6090 3510 50  0000 R CNN "display_footprint"
+F 5 "50V" H 6090 3410 50  0000 R CNN "Voltage"
+F 6 "X7R" H 6090 3310 50  0000 R CNN "Dielectric"
 F 7 "PN" H 6665 3910 60  0001 C CNN "Digi-Key PN"
 	1    6240 3410
 	1    0    0    -1  
@@ -887,73 +857,62 @@ Wire Wire Line
 $Comp
 L Custom_Library:R_Custom R?
 U 1 1 5BC4AD64
-P 7200 5280
-F 0 "R?" H 7100 5280 50  0000 R CNN
-F 1 "R" V 7200 5280 50  0000 C CNN
-F 2 "" H 7200 5280 50  0001 C CNN
-F 3 "" H 7200 5280 50  0001 C CNN
-F 4 "PN" H 7500 5680 60  0001 C CNN "Digi-Key PN"
-F 5 "Foot" H 7300 5360 50  0000 L CNN "display_footprint"
-F 6 "Tol" H 7300 5280 50  0000 L CNN "Tolerance"
-F 7 "W" H 7300 5200 50  0000 L CNN "Wattage"
-	1    7200 5280
+P 7200 5470
+F 0 "R?" H 7100 5470 50  0000 R CNN
+F 1 "R" V 7200 5470 50  0000 C CNN
+F 2 "" H 7200 5470 50  0001 C CNN
+F 3 "" H 7200 5470 50  0001 C CNN
+F 4 "PN" H 7500 5870 60  0001 C CNN "Digi-Key PN"
+F 5 "Foot" H 7300 5550 50  0000 L CNN "display_footprint"
+F 6 "Tol" H 7300 5470 50  0000 L CNN "Tolerance"
+F 7 "W" H 7300 5390 50  0000 L CNN "Wattage"
+	1    7200 5470
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Custom_Library:R_Custom R?
 U 1 1 5BC4B13D
-P 7200 5750
-F 0 "R?" H 7100 5750 50  0000 R CNN
-F 1 "R" V 7200 5750 50  0000 C CNN
-F 2 "" H 7200 5750 50  0001 C CNN
-F 3 "" H 7200 5750 50  0001 C CNN
-F 4 "PN" H 7500 6150 60  0001 C CNN "Digi-Key PN"
-F 5 "Foot" H 7300 5830 50  0000 L CNN "display_footprint"
-F 6 "Tol" H 7300 5750 50  0000 L CNN "Tolerance"
-F 7 "W" H 7300 5670 50  0000 L CNN "Wattage"
-	1    7200 5750
+P 7200 5940
+F 0 "R?" H 7100 5940 50  0000 R CNN
+F 1 "R" V 7200 5940 50  0000 C CNN
+F 2 "" H 7200 5940 50  0001 C CNN
+F 3 "" H 7200 5940 50  0001 C CNN
+F 4 "PN" H 7500 6340 60  0001 C CNN "Digi-Key PN"
+F 5 "Foot" H 7300 6020 50  0000 L CNN "display_footprint"
+F 6 "Tol" H 7300 5940 50  0000 L CNN "Tolerance"
+F 7 "W" H 7300 5860 50  0000 L CNN "Wattage"
+	1    7200 5940
 	-1   0    0    -1  
 $EndComp
-Connection ~ 7200 4540
 $Comp
 L power:GND #PWR?
 U 1 1 5BC4F0D5
-P 7200 6060
-F 0 "#PWR?" H 7200 5810 50  0001 C CNN
-F 1 "GND" H 7200 5910 50  0000 C CNN
-F 2 "" H 7200 6060 50  0001 C CNN
-F 3 "" H 7200 6060 50  0001 C CNN
-	1    7200 6060
+P 7200 6250
+F 0 "#PWR?" H 7200 6000 50  0001 C CNN
+F 1 "GND" H 7200 6100 50  0000 C CNN
+F 2 "" H 7200 6250 50  0001 C CNN
+F 3 "" H 7200 6250 50  0001 C CNN
+	1    7200 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 6060 7200 5980
+	7200 6250 7200 6170
 Wire Wire Line
-	7200 5600 7200 5510
+	7200 5790 7200 5700
 Wire Wire Line
 	4270 4470 4270 5700
+Connection ~ 7200 5700
 Wire Wire Line
-	4270 5700 6850 5700
-Wire Wire Line
-	7200 4540 7200 5130
-Wire Wire Line
-	6850 5510 7200 5510
-Wire Wire Line
-	6850 5510 6850 5700
-Connection ~ 7200 5510
-Wire Wire Line
-	7200 5510 7200 5430
+	7200 5700 7200 5620
 Wire Wire Line
 	4170 4570 4170 5800
 Wire Wire Line
 	4170 5800 6850 5800
 Wire Wire Line
-	6850 5800 6850 5980
+	6850 6170 7200 6170
+Connection ~ 7200 6170
 Wire Wire Line
-	6850 5980 7200 5980
-Connection ~ 7200 5980
-Wire Wire Line
-	7200 5980 7200 5900
+	7200 6170 7200 6090
 $Comp
 L Custom_Library:R_Custom R?
 U 1 1 5BC8C456
@@ -1240,4 +1199,79 @@ F 3 "" H 3820 1590 50  0001 C CNN
 	1    3820 1590
 	1    0    0    -1  
 $EndComp
+$Comp
+L Custom_Library:C_Custom C?
+U 1 1 5BBF5660
+P 4440 2430
+F 0 "C?" H 4465 2530 50  0000 L CNN
+F 1 "0.1uF" H 4465 2330 50  0000 L CNN
+F 2 "" H 4478 2280 50  0001 C CNN
+F 3 "" H 4465 2530 50  0001 C CNN
+F 4 "0603" H 4290 2530 50  0000 R CNN "display_footprint"
+F 5 "50V" H 4290 2430 50  0000 R CNN "Voltage"
+F 6 "X7R" H 4290 2330 50  0000 R CNN "Dielectric"
+F 7 "PN" H 4865 2930 60  0001 C CNN "Digi-Key PN"
+	1    4440 2430
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5BBF579B
+P 4440 1900
+F 0 "R?" H 4340 1900 50  0000 R CNN
+F 1 "2" V 4440 1900 50  0000 C CNN
+F 2 "" H 4440 1900 50  0001 C CNN
+F 3 "" H 4440 1900 50  0001 C CNN
+F 4 "PN" H 4740 2300 60  0001 C CNN "Digi-Key PN"
+F 5 "0603" H 4540 1980 50  0000 L CNN "display_footprint"
+F 6 "1%" H 4540 1900 50  0000 L CNN "Tolerance"
+F 7 "1/10W" H 4540 1820 50  0000 L CNN "Wattage"
+	1    4440 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5BBF5BBC
+P 8340 1590
+F 0 "#PWR?" H 8340 1440 50  0001 C CNN
+F 1 "+12V" H 8340 1730 50  0000 C CNN
+F 2 "" H 8340 1590 50  0001 C CNN
+F 3 "" H 8340 1590 50  0001 C CNN
+	1    8340 1590
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8340 1590 8340 1670
+Connection ~ 8340 1670
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5BBFEF87
+P 7200 5090
+F 0 "R?" H 7100 5090 50  0000 R CNN
+F 1 "10" V 7200 5090 50  0000 C CNN
+F 2 "" H 7200 5090 50  0001 C CNN
+F 3 "" H 7200 5090 50  0001 C CNN
+F 4 "PN" H 7500 5490 60  0001 C CNN "Digi-Key PN"
+F 5 "0603" H 7300 5170 50  0000 L CNN "display_footprint"
+F 6 "1%" H 7300 5090 50  0000 L CNN "Tolerance"
+F 7 "1/10W" H 7300 5010 50  0000 L CNN "Wattage"
+	1    7200 5090
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5320 7200 5280
+Connection ~ 7200 4540
+Wire Wire Line
+	4270 5700 7200 5700
+Wire Wire Line
+	6850 5800 6850 6170
+Wire Wire Line
+	7200 4540 7200 4940
+Text GLabel 7280 5280 2    50   UnSpc ~ 0
+LOOP_TAP
+Wire Wire Line
+	7280 5280 7200 5280
+Connection ~ 7200 5280
+Wire Wire Line
+	7200 5280 7200 5240
 $EndSCHEMATC

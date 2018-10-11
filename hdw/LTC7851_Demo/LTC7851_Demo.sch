@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 13
+Sheet 1 15
 Title ""
 Date ""
 Rev ""
@@ -85,5 +85,11 @@ S 3270 5770 500  150
 U 5BBF20DB
 F0 "Active Load 3" 50
 F1 "Active_Load_3.sch" 50
+$EndSheet
+$Sheet
+S 3270 6180 500  150 
+U 5BC30A46
+F0 "Loop Response" 50
+F1 "Loop_Response.sch" 50
 $EndSheet
 $EndSCHEMATC

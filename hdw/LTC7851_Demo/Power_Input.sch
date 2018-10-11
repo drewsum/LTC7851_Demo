@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 13
+Sheet 2 15
 Title ""
 Date ""
 Rev ""
@@ -750,4 +750,15 @@ Wire Wire Line
 Connection ~ 2440 4070
 Wire Wire Line
 	2440 4070 2440 4420
+$Comp
+L Custom_Library:+5.5V_MNG #PWR?
+U 1 1 5BBEC090
+P 6050 4260
+F 0 "#PWR?" H 6050 4110 50  0001 C CNN
+F 1 "+5.5V_MNG" H 6050 4400 50  0000 C CNN
+F 2 "" H 6050 4260 50  0001 C CNN
+F 3 "" H 6050 4260 50  0001 C CNN
+	1    6050 4260
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
