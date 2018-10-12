@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 15
+Sheet 1 14
 Title ""
 Date ""
 Rev ""
@@ -53,8 +53,8 @@ $EndSheet
 $Sheet
 S 3270 4080 500  150 
 U 5BB9CE4B
-F0 "POS5 VCC" 50
-F1 "POS5_VCC.sch" 50
+F0 "POS5P5 MNG" 50
+F1 "POS5P5_MNG.sch" 50
 $EndSheet
 $Sheet
 S 3270 4430 500  150 

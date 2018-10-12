@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 8 15
+Sheet 8 14
 Title ""
 Date ""
 Rev ""
@@ -14,23 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L LED_Display_Local_Library:CP_Tant_Custom C?
-U 1 1 5BBB1259
-P 7040 3820
-AR Path="/5BB86F23/5BBB1259" Ref="C?"  Part="1" 
-AR Path="/5BB9CE4B/5BBB1259" Ref="C?"  Part="1" 
-F 0 "C?" H 7065 3920 50  0000 L CNN
-F 1 "100uF" H 7065 3720 50  0000 L CNN
-F 2 "" H 7078 3670 50  0001 C CNN
-F 3 "" H 7065 3920 50  0001 C CNN
-F 4 "718-1102-1-ND" H 7040 3820 50  0001 C CNN "Digi-Key PN"
-F 5 "7343" H 6890 3920 50  0000 R CNN "display_footprint"
-F 6 "16V" H 6890 3820 50  0000 R CNN "Voltage"
-F 7 "10%" H 6890 3720 50  0000 R CNN "Tolerance"
-	1    7040 3820
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3800 3510 3800 3590
 $Comp
