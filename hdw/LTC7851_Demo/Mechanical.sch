@@ -17,17 +17,6 @@ $EndDescr
 Text Notes 540  690  0    100  ~ 20
 Mounting Holes and Mechanical Components
 $Comp
-L Custom_Library:MU_Logo #G?
-U 1 1 5BB6A5D4
-P 9900 1100
-F 0 "#G?" H 9900 614 60  0001 C CNN
-F 1 "MU_Logo" H 9900 1586 60  0001 C CNN
-F 2 "" H 9900 1100 50  0001 C CNN
-F 3 "" H 9900 1100 50  0001 C CNN
-	1    9900 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Custom_Library:Screw MK?
 U 1 1 5BC10ED5
 P 6470 2210
