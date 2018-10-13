@@ -14,182 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Mechanical:MountingHole_Pad MH?
-U 1 1 5BB4FCC8
-P 1490 2140
-F 0 "MH?" H 1490 2390 50  0000 C CNN
-F 1 "MountingHole" H 1490 2315 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm_Pad_Via" H 1490 2140 50  0001 C CNN
-F 3 "~" H 1490 2140 50  0001 C CNN
-	1    1490 2140
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth_Protective #PWR?
-U 1 1 5BB5004B
-P 1490 2240
-F 0 "#PWR?" H 1740 1990 50  0001 C CNN
-F 1 "Earth_Protective" H 1940 2090 50  0001 C CNN
-F 2 "" H 1490 2140 50  0001 C CNN
-F 3 "~" H 1490 2140 50  0001 C CNN
-	1    1490 2240
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad MH?
-U 1 1 5BB5039D
-P 2490 2140
-F 0 "MH?" H 2490 2390 50  0000 C CNN
-F 1 "MountingHole" H 2490 2315 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm_Pad_Via" H 2490 2140 50  0001 C CNN
-F 3 "~" H 2490 2140 50  0001 C CNN
-	1    2490 2140
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth_Protective #PWR?
-U 1 1 5BB503A4
-P 2490 2240
-F 0 "#PWR?" H 2740 1990 50  0001 C CNN
-F 1 "Earth_Protective" H 2940 2090 50  0001 C CNN
-F 2 "" H 2490 2140 50  0001 C CNN
-F 3 "~" H 2490 2140 50  0001 C CNN
-	1    2490 2240
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad MH?
-U 1 1 5BB5043A
-P 3490 2140
-F 0 "MH?" H 3490 2390 50  0000 C CNN
-F 1 "MountingHole" H 3490 2315 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm_Pad_Via" H 3490 2140 50  0001 C CNN
-F 3 "~" H 3490 2140 50  0001 C CNN
-	1    3490 2140
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth_Protective #PWR?
-U 1 1 5BB50441
-P 3490 2240
-F 0 "#PWR?" H 3740 1990 50  0001 C CNN
-F 1 "Earth_Protective" H 3940 2090 50  0001 C CNN
-F 2 "" H 3490 2140 50  0001 C CNN
-F 3 "~" H 3490 2140 50  0001 C CNN
-	1    3490 2240
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad MH?
-U 1 1 5BB50447
-P 4490 2140
-F 0 "MH?" H 4490 2390 50  0000 C CNN
-F 1 "MountingHole" H 4490 2315 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm_Pad_Via" H 4490 2140 50  0001 C CNN
-F 3 "~" H 4490 2140 50  0001 C CNN
-	1    4490 2140
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth_Protective #PWR?
-U 1 1 5BB5044E
-P 4490 2240
-F 0 "#PWR?" H 4740 1990 50  0001 C CNN
-F 1 "Earth_Protective" H 4940 2090 50  0001 C CNN
-F 2 "" H 4490 2140 50  0001 C CNN
-F 3 "~" H 4490 2140 50  0001 C CNN
-	1    4490 2240
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad MH?
-U 1 1 5BB5087C
-P 1490 3140
-F 0 "MH?" H 1490 3390 50  0000 C CNN
-F 1 "MountingHole" H 1490 3315 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm_Pad_Via" H 1490 3140 50  0001 C CNN
-F 3 "~" H 1490 3140 50  0001 C CNN
-	1    1490 3140
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth_Protective #PWR?
-U 1 1 5BB50883
-P 1490 3240
-F 0 "#PWR?" H 1740 2990 50  0001 C CNN
-F 1 "Earth_Protective" H 1940 3090 50  0001 C CNN
-F 2 "" H 1490 3140 50  0001 C CNN
-F 3 "~" H 1490 3140 50  0001 C CNN
-	1    1490 3240
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad MH?
-U 1 1 5BB50889
-P 2490 3140
-F 0 "MH?" H 2490 3390 50  0000 C CNN
-F 1 "MountingHole" H 2490 3315 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm_Pad_Via" H 2490 3140 50  0001 C CNN
-F 3 "~" H 2490 3140 50  0001 C CNN
-	1    2490 3140
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth_Protective #PWR?
-U 1 1 5BB50890
-P 2490 3240
-F 0 "#PWR?" H 2740 2990 50  0001 C CNN
-F 1 "Earth_Protective" H 2940 3090 50  0001 C CNN
-F 2 "" H 2490 3140 50  0001 C CNN
-F 3 "~" H 2490 3140 50  0001 C CNN
-	1    2490 3240
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad MH?
-U 1 1 5BB50896
-P 3490 3140
-F 0 "MH?" H 3490 3390 50  0000 C CNN
-F 1 "MountingHole" H 3490 3315 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm_Pad_Via" H 3490 3140 50  0001 C CNN
-F 3 "~" H 3490 3140 50  0001 C CNN
-	1    3490 3140
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth_Protective #PWR?
-U 1 1 5BB5089D
-P 3490 3240
-F 0 "#PWR?" H 3740 2990 50  0001 C CNN
-F 1 "Earth_Protective" H 3940 3090 50  0001 C CNN
-F 2 "" H 3490 3140 50  0001 C CNN
-F 3 "~" H 3490 3140 50  0001 C CNN
-	1    3490 3240
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad MH?
-U 1 1 5BB508A3
-P 4490 3140
-F 0 "MH?" H 4490 3390 50  0000 C CNN
-F 1 "MountingHole" H 4490 3315 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm_Pad_Via" H 4490 3140 50  0001 C CNN
-F 3 "~" H 4490 3140 50  0001 C CNN
-	1    4490 3140
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth_Protective #PWR?
-U 1 1 5BB508AA
-P 4490 3240
-F 0 "#PWR?" H 4740 2990 50  0001 C CNN
-F 1 "Earth_Protective" H 4940 3090 50  0001 C CNN
-F 2 "" H 4490 3140 50  0001 C CNN
-F 3 "~" H 4490 3140 50  0001 C CNN
-	1    4490 3240
-	1    0    0    -1  
-$EndComp
 Text Notes 540  690  0    100  ~ 20
 Mounting Holes and Mechanical Components
 $Comp
@@ -241,18 +65,6 @@ F 4 "36-9900-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 $EndComp
 $Comp
 L Custom_Library:Screw MK?
-U 1 1 5BC11277
-P 8720 2210
-F 0 "MK?" H 8720 2310 50  0000 C CNN
-F 1 "4-40 Screw" H 8720 2410 50  0000 C CNN
-F 2 "" H 8720 2460 50  0001 C CNN
-F 3 "" H 8720 2460 50  0001 C CNN
-F 4 "36-9900-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
-	1    8720 2210
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Library:Screw MK?
 U 1 1 5BC113EE
 P 6470 2960
 F 0 "MK?" H 6470 3060 50  0000 C CNN
@@ -285,18 +97,6 @@ F 2 "" H 7970 3210 50  0001 C CNN
 F 3 "" H 7970 3210 50  0001 C CNN
 F 4 "36-9900-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    7970 2960
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Library:Screw MK?
-U 1 1 5BC11403
-P 8720 2960
-F 0 "MK?" H 8720 3060 50  0000 C CNN
-F 1 "4-40 Screw" H 8720 3160 50  0000 C CNN
-F 2 "" H 8720 3210 50  0001 C CNN
-F 3 "" H 8720 3210 50  0001 C CNN
-F 4 "36-9900-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
-	1    8720 2960
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -337,18 +137,6 @@ F 4 "36-8400-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 $EndComp
 $Comp
 L Custom_Library:Standoff MK?
-U 1 1 5BC123B2
-P 8720 3720
-F 0 "MK?" H 8720 3870 50  0000 C CNN
-F 1 "4-40 Standoff" H 8720 3970 50  0000 C CNN
-F 2 "" H 8720 4070 50  0001 C CNN
-F 3 "" H 8720 4070 50  0001 C CNN
-F 4 "36-8400-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
-	1    8720 3720
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Library:Standoff MK?
 U 1 1 5BC12534
 P 6470 4470
 F 0 "MK?" H 6470 4620 50  0000 C CNN
@@ -384,15 +172,69 @@ F 4 "36-8400-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:Standoff MK?
-U 1 1 5BC12549
-P 8720 4470
-F 0 "MK?" H 8720 4620 50  0000 C CNN
-F 1 "4-40 Standoff" H 8720 4720 50  0000 C CNN
-F 2 "" H 8720 4820 50  0001 C CNN
-F 3 "" H 8720 4820 50  0001 C CNN
-F 4 "36-8400-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
-	1    8720 4470
+L Mechanical:MountingHole MH?
+U 1 1 5BD5283B
+P 1830 2260
+F 0 "MH?" H 1830 2460 50  0000 C CNN
+F 1 "MountingHole" H 1830 2385 50  0000 C CNN
+F 2 "" H 1830 2260 50  0001 C CNN
+F 3 "~" H 1830 2260 50  0001 C CNN
+	1    1830 2260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5BD52910
+P 2580 2260
+F 0 "MH?" H 2580 2460 50  0000 C CNN
+F 1 "MountingHole" H 2580 2385 50  0000 C CNN
+F 2 "" H 2580 2260 50  0001 C CNN
+F 3 "~" H 2580 2260 50  0001 C CNN
+	1    2580 2260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5BD5294A
+P 3330 2260
+F 0 "MH?" H 3330 2460 50  0000 C CNN
+F 1 "MountingHole" H 3330 2385 50  0000 C CNN
+F 2 "" H 3330 2260 50  0001 C CNN
+F 3 "~" H 3330 2260 50  0001 C CNN
+	1    3330 2260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5BD52A0A
+P 1830 3010
+F 0 "MH?" H 1830 3210 50  0000 C CNN
+F 1 "MountingHole" H 1830 3135 50  0000 C CNN
+F 2 "" H 1830 3010 50  0001 C CNN
+F 3 "~" H 1830 3010 50  0001 C CNN
+	1    1830 3010
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5BD52A11
+P 2580 3010
+F 0 "MH?" H 2580 3210 50  0000 C CNN
+F 1 "MountingHole" H 2580 3135 50  0000 C CNN
+F 2 "" H 2580 3010 50  0001 C CNN
+F 3 "~" H 2580 3010 50  0001 C CNN
+	1    2580 3010
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5BD52A18
+P 3330 3010
+F 0 "MH?" H 3330 3210 50  0000 C CNN
+F 1 "MountingHole" H 3330 3135 50  0000 C CNN
+F 2 "" H 3330 3010 50  0001 C CNN
+F 3 "~" H 3330 3010 50  0001 C CNN
+	1    3330 3010
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 15 14
+Sheet 14 14
 Title ""
 Date ""
 Rev ""
@@ -134,4 +134,18 @@ Wire Wire Line
 	4470 5200 4470 5280
 Wire Wire Line
 	4470 5280 4550 5280
+$Comp
+L power:GND #PWR?
+U 1 1 5BD5340B
+P 5640 4130
+F 0 "#PWR?" H 5640 3880 50  0001 C CNN
+F 1 "GND" H 5640 3980 50  0000 C CNN
+F 2 "" H 5640 4130 50  0001 C CNN
+F 3 "" H 5640 4130 50  0001 C CNN
+	1    5640 4130
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5640 4130 5640 4050
+Connection ~ 5640 4050
 $EndSCHEMATC
