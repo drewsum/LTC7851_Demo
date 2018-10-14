@@ -4,3 +4,4 @@
 *.log
 ..gitignore.un~
 .gitignore~
+*.kicad_pcb-bak
