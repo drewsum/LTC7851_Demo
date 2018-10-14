@@ -111,7 +111,7 @@ F 3 "" H 7240 2640 50  0001 C CNN
 F 4 "0603" H 7320 2720 50  0000 L CNN "display_footprint"
 F 5 "1%" H 7320 2640 50  0000 L CNN "Tolerance"
 F 6 "1/10W" H 7320 2560 50  0000 L CNN "Wattage"
-F 7 "PN" H 7540 3040 60  0001 C CNN "Digi-Key PN"
+F 7 "RHM10KADCT-ND" H 7540 3040 60  0001 C CNN "Digi-Key PN"
 	1    7240 2640
 	1    0    0    -1  
 $EndComp
@@ -141,7 +141,7 @@ F 3 "" H 6560 2420 50  0001 C CNN
 F 4 "0603" V 6660 2420 50  0000 C CNN "display_footprint"
 F 5 "1%" V 6760 2420 50  0000 C CNN "Tolerance"
 F 6 "1/10W" V 6860 2420 50  0000 C CNN "Wattage"
-F 7 "PN" H 6860 2820 60  0001 C CNN "Digi-Key PN"
+F 7 "YAG3351CT-ND" H 6860 2820 60  0001 C CNN "Digi-Key PN"
 	1    6560 2420
 	0    1    1    0   
 $EndComp
@@ -247,7 +247,7 @@ F 3 "" H 7240 4680 50  0001 C CNN
 F 4 "0603" H 7320 4760 50  0000 L CNN "display_footprint"
 F 5 "1%" H 7320 4680 50  0000 L CNN "Tolerance"
 F 6 "1/10W" H 7320 4600 50  0000 L CNN "Wattage"
-F 7 "PN" H 7540 5080 60  0001 C CNN "Digi-Key PN"
+F 7 "RHM10KADCT-ND" H 7540 5080 60  0001 C CNN "Digi-Key PN"
 	1    7240 4680
 	1    0    0    -1  
 $EndComp
@@ -277,7 +277,7 @@ F 3 "" H 6560 4460 50  0001 C CNN
 F 4 "0603" V 6660 4460 50  0000 C CNN "display_footprint"
 F 5 "1%" V 6760 4460 50  0000 C CNN "Tolerance"
 F 6 "1/10W" V 6860 4460 50  0000 C CNN "Wattage"
-F 7 "PN" H 6860 4860 60  0001 C CNN "Digi-Key PN"
+F 7 "YAG3351CT-ND" H 6860 4860 60  0001 C CNN "Digi-Key PN"
 	1    6560 4460
 	0    1    1    0   
 $EndComp

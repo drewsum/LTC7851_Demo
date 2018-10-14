@@ -22,6 +22,7 @@ F 0 "J901" H 5520 2750 50  0000 C CNN
 F 1 "+5V OUT" H 5520 2550 50  0000 C CNN
 F 2 "Custom Footprints Library:Wuerth_7461096_M4_Shank_9pos" H 5520 2650 50  0001 C CNN
 F 3 "~" H 5520 2650 50  0001 C CNN
+F 4 "732-3214-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    5520 2650
 	1    0    0    -1  
 $EndComp
@@ -33,6 +34,7 @@ F 0 "J902" H 5520 3050 50  0000 C CNN
 F 1 "+5V OUT" H 5520 2850 50  0000 C CNN
 F 2 "Custom Footprints Library:Wuerth_7461096_M4_Shank_9pos" H 5520 2950 50  0001 C CNN
 F 3 "~" H 5520 2950 50  0001 C CNN
+F 4 "732-3214-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    5520 2950
 	1    0    0    -1  
 $EndComp
@@ -64,6 +66,7 @@ F 0 "J903" H 5520 3380 50  0000 C CNN
 F 1 "GND OUT" H 5520 3180 50  0000 C CNN
 F 2 "Custom Footprints Library:Wuerth_7461096_M4_Shank_9pos" H 5520 3280 50  0001 C CNN
 F 3 "~" H 5520 3280 50  0001 C CNN
+F 4 "732-3214-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    5520 3280
 	1    0    0    -1  
 $EndComp
@@ -75,6 +78,7 @@ F 0 "J904" H 5520 3670 50  0000 C CNN
 F 1 "GND OUT" H 5520 3470 50  0000 C CNN
 F 2 "Custom Footprints Library:Wuerth_7461096_M4_Shank_9pos" H 5520 3570 50  0001 C CNN
 F 3 "~" H 5520 3570 50  0001 C CNN
+F 4 "732-3214-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    5520 3570
 	1    0    0    -1  
 $EndComp
