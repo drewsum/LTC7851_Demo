@@ -26,8 +26,6 @@ F 4 "BSC123N10LSGATMA1CT-ND" H 7900 2420 50  0001 C CNN "Digi-Key PN"
 	1    7900 2420
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8000 2790 8000 2700
 $Comp
 L power:GND #PWR01204
 U 1 1 5BC4333B
@@ -37,33 +35,6 @@ F 1 "GND" H 8000 2940 50  0000 C CNN
 F 2 "" H 8000 3090 50  0001 C CNN
 F 3 "" H 8000 3090 50  0001 C CNN
 	1    8000 3090
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J1201
-U 1 1 5BC43341
-P 8830 2700
-F 0 "J1201" H 8830 2800 50  0000 C CNN
-F 1 "ISNS" H 8830 2500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8830 2700 50  0001 C CNN
-F 3 "~" H 8830 2700 50  0001 C CNN
-	1    8830 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8630 2700 8000 2700
-Connection ~ 8000 2700
-Wire Wire Line
-	8000 2700 8000 2620
-$Comp
-L power:GND #PWR01207
-U 1 1 5BC4334B
-P 8630 2800
-F 0 "#PWR01207" H 8630 2550 50  0001 C CNN
-F 1 "GND" H 8630 2650 50  0000 C CNN
-F 2 "" H 8630 2800 50  0001 C CNN
-F 3 "" H 8630 2800 50  0001 C CNN
-	1    8630 2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -162,8 +133,6 @@ F 4 "BSC123N10LSGATMA1CT-ND" H 7900 4460 50  0001 C CNN "Digi-Key PN"
 	1    7900 4460
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8000 4830 8000 4740
 $Comp
 L power:GND #PWR01206
 U 1 1 5BC4338C
@@ -173,33 +142,6 @@ F 1 "GND" H 8000 4980 50  0000 C CNN
 F 2 "" H 8000 5130 50  0001 C CNN
 F 3 "" H 8000 5130 50  0001 C CNN
 	1    8000 5130
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J1202
-U 1 1 5BC43392
-P 8830 4740
-F 0 "J1202" H 8830 4840 50  0000 C CNN
-F 1 "ISNS" H 8830 4540 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8830 4740 50  0001 C CNN
-F 3 "~" H 8830 4740 50  0001 C CNN
-	1    8830 4740
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8630 4740 8000 4740
-Connection ~ 8000 4740
-Wire Wire Line
-	8000 4740 8000 4660
-$Comp
-L power:GND #PWR01208
-U 1 1 5BC4339C
-P 8630 4840
-F 0 "#PWR01208" H 8630 4590 50  0001 C CNN
-F 1 "GND" H 8630 4690 50  0000 C CNN
-F 2 "" H 8630 4840 50  0001 C CNN
-F 3 "" H 8630 4840 50  0001 C CNN
-	1    8630 4840
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -288,4 +230,8 @@ Text GLabel 6410 4460 0    50   Input ~ 0
 LOAD_GATE
 Text Notes 540  690  0    100  ~ 20
 Active Load Bank 2
+Wire Wire Line
+	8000 2620 8000 2790
+Wire Wire Line
+	8000 4660 8000 4830
 $EndSCHEMATC

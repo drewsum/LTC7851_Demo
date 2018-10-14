@@ -291,8 +291,6 @@ F 4 "BSC123N10LSGATMA1CT-ND" H 7900 4460 50  0001 C CNN "Digi-Key PN"
 	1    7900 4460
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8000 4830 8000 4740
 $Comp
 L power:GND #PWR01117
 U 1 1 5BC4282E
@@ -302,33 +300,6 @@ F 1 "GND" H 8000 4980 50  0000 C CNN
 F 2 "" H 8000 5130 50  0001 C CNN
 F 3 "" H 8000 5130 50  0001 C CNN
 	1    8000 5130
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J1103
-U 1 1 5BC42834
-P 8830 4740
-F 0 "J1103" H 8830 4840 50  0000 C CNN
-F 1 "ISNS" H 8830 4540 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8830 4740 50  0001 C CNN
-F 3 "~" H 8830 4740 50  0001 C CNN
-	1    8830 4740
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8630 4740 8000 4740
-Connection ~ 8000 4740
-Wire Wire Line
-	8000 4740 8000 4660
-$Comp
-L power:GND #PWR01119
-U 1 1 5BC4283E
-P 8630 4840
-F 0 "#PWR01119" H 8630 4590 50  0001 C CNN
-F 1 "GND" H 8630 4690 50  0000 C CNN
-F 2 "" H 8630 4840 50  0001 C CNN
-F 3 "" H 8630 4840 50  0001 C CNN
-	1    8630 4840
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -541,4 +512,6 @@ F 3 "" H 3920 4930 50  0001 C CNN
 $EndComp
 Text Notes 540  690  0    100  ~ 20
 Active Load Driver and Active Load Bank 1
+Wire Wire Line
+	8000 4660 8000 4830
 $EndSCHEMATC
