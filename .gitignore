@@ -1,0 +1,6 @@
+*.bck
+*.bak
+*.raw
+*.log
+..gitignore.un~
+.gitignore~
