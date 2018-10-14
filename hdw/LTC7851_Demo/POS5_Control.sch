@@ -20,7 +20,7 @@ U 1 1 5BEE844B
 P 2410 3660
 F 0 "U?" H 2810 1610 50  0000 R CNN
 F 1 "LTC7851UHH" H 2410 5710 50  0000 C CNN
-F 2 "" H -240 4360 50  0001 C CNN
+F 2 "Custom Footprints Library:QFN-58-1EP_9x5mm_Pitch0.4mm" H -240 4360 50  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/LTC7851.pdf" H 2410 3660 50  0001 C CNN
 F 4 "LTC7851IUHH#PBF-ND" H 2410 3660 50  0001 C CNN "Digi-Key PN"
 	1    2410 3660

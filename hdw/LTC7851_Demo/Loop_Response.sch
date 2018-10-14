@@ -20,10 +20,11 @@ U 1 1 5BC3161A
 P 5000 3850
 F 0 "T?" H 5000 4100 50  0000 C CNN
 F 1 "1:1 Pulse Transformer" H 5000 3550 50  0000 C CNN
-F 2 "" H 5000 3850 50  0001 C CNN
+F 2 "Custom Footprints Library:Murata_78601_9C" H 5000 3850 50  0001 C CNN
 F 3 "~" H 5000 3850 50  0001 C CNN
+F 4 "811-2650-ND" H 5000 3850 50  0001 C CNN "Digi-Key PN"
 	1    5000 3850
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?

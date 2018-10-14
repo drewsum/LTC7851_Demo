@@ -59,7 +59,7 @@ AR Path="/5BB86F2C/5BD489B4" Ref="U?"  Part="1"
 AR Path="/5BB86F2F/5BD489B4" Ref="U?"  Part="1" 
 F 0 "U?" H 6080 960 50  0000 C CNN
 F 1 "SiC779" H 6080 4660 50  0000 C CNN
-F 2 "" H 4430 3560 50  0001 C CNN
+F 2 "Custom Footprints Library:MLP66-40_6x6mm_Pitch0.5mm" H 4430 3560 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/67538/sic779.pdf" H 6080 2810 50  0001 C CNN
 F 4 "SIC779CD-T1-GE3CT-ND" H 6080 2810 50  0001 C CNN "Digi-Key PN"
 	1    6080 2810
@@ -659,7 +659,7 @@ AR Path="/5BB86F2C/5BD48AF4" Ref="U?"  Part="3"
 AR Path="/5BB86F2F/5BD48AF4" Ref="U?"  Part="4" 
 F 0 "U?" H 2910 2160 50  0000 R CNN
 F 1 "LTC7851UHH" H 2510 6260 50  0000 C CNN
-F 2 "" H -140 4910 50  0001 C CNN
+F 2 "Custom Footprints Library:QFN-58-1EP_9x5mm_Pitch0.4mm" H -140 4910 50  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/LTC7851.pdf" H 2510 4210 50  0001 C CNN
 F 4 "LTC7851IUHH#PBF-ND" H 2510 4210 50  0001 C CNN "Digi-Key PN"
 	4    2510 4210
@@ -1018,9 +1018,9 @@ Wire Wire Line
 Text GLabel 5430 2510 0    50   Input ~ 0
 POS5_RUN
 Text Label 3160 3310 0    50   ~ 0
-POS5_ISNS1_+
+POS5_ISNS3_+
 Text Label 3160 3410 0    50   ~ 0
-POS5_ISNS1_-
+POS5_ISNS3_-
 Text Notes 3270 3670 0    50   ~ 0
 Route as diff pair
 Wire Wire Line
@@ -1029,4 +1029,9 @@ NoConn ~ 3060 3910
 NoConn ~ 3060 4010
 Text GLabel 3060 5110 2    50   UnSpc ~ 0
 POS5_EXTVCC
+Wire Wire Line
+	6730 4110 6810 4110
+Wire Wire Line
+	6810 4110 6810 4010
+Connection ~ 6810 4010
 $EndSCHEMATC
