@@ -871,4 +871,6 @@ F 3 "~" H 3990 1860 50  0001 C CNN
 	1    3990 1860
 	1    0    0    -1  
 $EndComp
+Text Notes 540  690  0    100  ~ 20
++5V Control
 $EndSCHEMATC

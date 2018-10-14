@@ -104,4 +104,6 @@ Wire Wire Line
 Connection ~ 5240 3570
 Text Notes 3340 3220 0    50   ~ 0
 Place bulk output caps close to terminals
+Text Notes 540  690  0    100  ~ 20
+Power Output
 $EndSCHEMATC

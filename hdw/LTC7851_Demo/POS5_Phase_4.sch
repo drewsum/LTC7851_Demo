@@ -1034,4 +1034,6 @@ Wire Wire Line
 Wire Wire Line
 	6810 4110 6810 4010
 Connection ~ 6810 4010
+Text Notes 540  690  0    100  ~ 20
++5V Phase 4
 $EndSCHEMATC

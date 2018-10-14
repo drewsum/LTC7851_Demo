@@ -286,4 +286,6 @@ Wire Wire Line
 Connection ~ 7240 4460
 Text GLabel 6410 4460 0    50   Input ~ 0
 LOAD_GATE
+Text Notes 540  690  0    100  ~ 20
+Active Load Bank 3
 $EndSCHEMATC

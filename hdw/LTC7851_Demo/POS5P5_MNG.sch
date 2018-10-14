@@ -285,4 +285,6 @@ F 3 "" H 6430 3510 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	6430 3510 6430 3590
+Text Notes 540  690  0    100  ~ 20
++5.5V MNG
 $EndSCHEMATC
