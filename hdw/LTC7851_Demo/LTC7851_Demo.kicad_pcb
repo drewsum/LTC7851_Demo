@@ -349,7 +349,7 @@
   )
 
   (module "Custom Footprints Library:MLP66-40_6x6mm_Pitch0.5mm" (layer F.Cu) (tedit 5BC3A671) (tstamp 5BC401B5)
-    (at 117.3099 89.6112 180)
+    (at 168.9227 90.1192 180)
     (descr "40-Lead Plastic Quad Flat, No Lead Package (ML) - 6x6x0.9mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFN 0.5")
     (path /5BB86F32/5BD4BE1A)
@@ -470,7 +470,7 @@
   )
 
   (module "Custom Footprints Library:MLP66-40_6x6mm_Pitch0.5mm" (layer F.Cu) (tedit 5BC3A671) (tstamp 5BC40177)
-    (at 134.5819 89.6112 180)
+    (at 117.2591 90.1192 180)
     (descr "40-Lead Plastic Quad Flat, No Lead Package (ML) - 6x6x0.9mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFN 0.5")
     (path /5BB86F2F/5BD489B4)
@@ -591,7 +591,7 @@
   )
 
   (module "Custom Footprints Library:MLP66-40_6x6mm_Pitch0.5mm" (layer F.Cu) (tedit 5BC3A671) (tstamp 5BC3E011)
-    (at 151.8539 89.6112 180)
+    (at 134.4295 90.1192 180)
     (descr "40-Lead Plastic Quad Flat, No Lead Package (ML) - 6x6x0.9mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFN 0.5")
     (path /5BB86F2C/5BD16C1E)
@@ -712,7 +712,7 @@
   )
 
   (module "Custom Footprints Library:MLP66-40_6x6mm_Pitch0.5mm" (layer F.Cu) (tedit 5BC3A671) (tstamp 5BC3EB7E)
-    (at 169.1259 89.6112 180)
+    (at 151.9047 90.1192 180)
     (descr "40-Lead Plastic Quad Flat, No Lead Package (ML) - 6x6x0.9mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFN 0.5")
     (path /5BB86F29/5BB8C7AD)
@@ -833,7 +833,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer F.Cu) (tedit 5BC3A3E4) (tstamp 5BC40240)
-    (at 110.8964 88.5952 270)
+    (at 162.5092 89.1032 270)
     (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
     (tags "Mesurement Point Round SMD Pad 1.5mm")
     (path /5BB86F32/5BD4BE33)
@@ -850,7 +850,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer F.Cu) (tedit 5BC3A392) (tstamp 5BC43E2F)
-    (at 128.1684 88.5952 270)
+    (at 110.8456 89.1032 270)
     (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
     (tags "Mesurement Point Round SMD Pad 1.5mm")
     (path /5BB86F2F/5BD489CD)
@@ -867,7 +867,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5BC3A39D) (tstamp 5BC4022B)
-    (at 122.4534 94.3737 270)
+    (at 174.0662 94.8817 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5BB86F32/5BD4BF7B)
@@ -903,7 +903,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5BC3A340) (tstamp 5BC4021B)
-    (at 139.7254 94.3737 270)
+    (at 122.4026 94.8817 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5BB86F2F/5BD48B15)
@@ -939,7 +939,7 @@
   )
 
   (module Inductors_SMD:L_Vishay_IHLP-4040 (layer F.Cu) (tedit 5BC3A3BC) (tstamp 5BC40207)
-    (at 112.1664 100.0887 270)
+    (at 163.7792 100.5967 270)
     (descr "Inductor, Vishay, IHLP series, 10.2mmx10.2mm")
     (tags "inductor vishay ihlp smd")
     (path /5BB86F32/5BD4BE94)
@@ -979,7 +979,7 @@
   )
 
   (module Inductors_SMD:L_Vishay_IHLP-4040 (layer F.Cu) (tedit 5BC3A364) (tstamp 5BC401F3)
-    (at 129.4384 100.0887 270)
+    (at 112.1156 100.5967 270)
     (descr "Inductor, Vishay, IHLP series, 10.2mmx10.2mm")
     (tags "inductor vishay ihlp smd")
     (path /5BB86F2F/5BD48A2E)
@@ -1019,7 +1019,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5BC3A3C4) (tstamp 5BC40167)
-    (at 119.3419 99.1997)
+    (at 170.9547 99.7077)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5BB86F32/5BD4BED5)
@@ -1055,7 +1055,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5BC3A360) (tstamp 5BC40157)
-    (at 136.6139 99.1997)
+    (at 119.2911 99.7077)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5BB86F2F/5BD48A6F)
@@ -1091,7 +1091,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5BC3A3B0) (tstamp 5BC40147)
-    (at 123.2154 90.4367)
+    (at 174.8282 90.9447)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5BB86F32/5BD4BEB5)
@@ -1127,7 +1127,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5BC3A345) (tstamp 5BC40137)
-    (at 140.4874 90.4367)
+    (at 123.1646 90.9447)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5BB86F2F/5BD48A4F)
@@ -1235,7 +1235,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC3A470) (tstamp 5BC40107)
-    (at 117.4369 85.1662 180)
+    (at 169.0497 85.6742 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F32/5BD4BF8D)
@@ -1271,7 +1271,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC3A458) (tstamp 5BC400F7)
-    (at 134.7089 85.1662 180)
+    (at 117.3861 85.6742 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F2F/5BD48B27)
@@ -1307,7 +1307,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC3A3BF) (tstamp 5BC400E7)
-    (at 121.5644 100.0887 90)
+    (at 173.1772 100.5967 90)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F32/5BD4BEE0)
@@ -1343,7 +1343,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC3A369) (tstamp 5BC400D7)
-    (at 138.8364 100.0887 90)
+    (at 121.5136 100.5967 90)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F2F/5BD48A7A)
@@ -1379,7 +1379,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer F.Cu) (tedit 5BC3A3E0) (tstamp 5BC400D2)
-    (at 110.8964 91.1352 270)
+    (at 162.5092 91.6432 270)
     (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
     (tags "Mesurement Point Round SMD Pad 1.5mm")
     (path /5BB86F32/5BD4BE3A)
@@ -1396,7 +1396,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer F.Cu) (tedit 5BC3A38E) (tstamp 5BC400CD)
-    (at 128.1684 91.1352 270)
+    (at 110.8456 91.6432 270)
     (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
     (tags "Mesurement Point Round SMD Pad 1.5mm")
     (path /5BB86F2F/5BD489D4)
@@ -1413,7 +1413,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC3A3A1) (tstamp 5BC400BD)
-    (at 123.2154 92.0242)
+    (at 174.8282 92.5322)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F32/5BD4BE0C)
@@ -1449,7 +1449,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC3A357) (tstamp 5BC400AD)
-    (at 140.4874 92.0242)
+    (at 123.1646 92.5322)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F2F/5BD489A6)
@@ -1485,7 +1485,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC3A3C7) (tstamp 5BC4009D)
-    (at 119.4054 95.0722 180)
+    (at 171.0182 95.5802 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F32/5BD4BF70)
@@ -1521,7 +1521,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC3A350) (tstamp 5BC4008D)
-    (at 136.6774 95.0722 180)
+    (at 119.3546 95.5802 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F2F/5BD48B0A)
@@ -1635,7 +1635,7 @@
   )
 
   (module Capacitors_SMD:C_1210 (layer F.Cu) (tedit 5BC3A484) (tstamp 5BC40057)
-    (at 117.3734 79.5782 180)
+    (at 168.9862 80.0862 180)
     (descr "Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1210")
     (path /5BB86F32/5BD4BFD8)
@@ -1671,7 +1671,7 @@
   )
 
   (module Capacitors_SMD:C_1210 (layer F.Cu) (tedit 5BC3A464) (tstamp 5BC40047)
-    (at 134.6454 79.5782 180)
+    (at 117.3226 80.0862 180)
     (descr "Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1210")
     (path /5BB86F2F/5BD48B72)
@@ -1779,7 +1779,7 @@
   )
 
   (module Capacitors_SMD:C_1210 (layer F.Cu) (tedit 5BC3A47D) (tstamp 5BC40017)
-    (at 117.3734 82.7532 180)
+    (at 168.9862 83.2612 180)
     (descr "Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1210")
     (path /5BB86F32/5BD4BEF6)
@@ -1815,7 +1815,7 @@
   )
 
   (module Capacitors_SMD:C_1210 (layer F.Cu) (tedit 5BC3A45E) (tstamp 5BC40007)
-    (at 134.6454 82.7532 180)
+    (at 117.3226 83.2612 180)
     (descr "Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1210")
     (path /5BB86F2F/5BD48A90)
@@ -1851,7 +1851,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC3A3A6) (tstamp 5BC3FFF7)
-    (at 123.2154 88.7857 180)
+    (at 174.8282 89.2937 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F32/5BD4BEC0)
@@ -1887,7 +1887,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC3A35C) (tstamp 5BC3FFE7)
-    (at 140.4874 88.7857 180)
+    (at 123.1646 89.2937 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F2F/5BD48A5A)
@@ -1923,7 +1923,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC3A43B) (tstamp 5BC3E418)
-    (at 151.9809 85.1662 180)
+    (at 134.5565 85.6742 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F2C/5BD16E10)
@@ -1959,7 +1959,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC3A30A) (tstamp 5BC3E550)
-    (at 157.7594 92.0242)
+    (at 140.335 92.5322)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F2C/5BD16C10)
@@ -2031,7 +2031,7 @@
   )
 
   (module Capacitors_SMD:C_1210 (layer F.Cu) (tedit 5BC3A44D) (tstamp 5BC3E619)
-    (at 151.9174 79.5782 180)
+    (at 134.493 80.0862 180)
     (descr "Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1210")
     (path /5BB86F2C/5BD16E5B)
@@ -2067,7 +2067,7 @@
   )
 
   (module Capacitors_SMD:C_1210 (layer F.Cu) (tedit 5BC3A446) (tstamp 5BC3E7F9)
-    (at 151.9174 82.7532 180)
+    (at 134.493 83.2612 180)
     (descr "Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1210")
     (path /5BB86F2C/5BD16CFA)
@@ -2103,7 +2103,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC3A318) (tstamp 5BC3E478)
-    (at 156.1084 100.0887 90)
+    (at 138.684 100.5967 90)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F2C/5BD16CE4)
@@ -2139,7 +2139,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC3A2F4) (tstamp 5BC3E829)
-    (at 157.7594 88.7857 180)
+    (at 140.335 89.2937 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F2C/5BD16CC4)
@@ -2175,7 +2175,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC3A310) (tstamp 5BC3E5B0)
-    (at 153.9494 95.0722 180)
+    (at 136.525 95.5802 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F2C/5BD16DE2)
@@ -2286,7 +2286,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer F.Cu) (tedit 5BC3A1B5) (tstamp 5BC3E536)
-    (at 145.4404 91.1352 270)
+    (at 128.016 91.6432 270)
     (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
     (tags "Mesurement Point Round SMD Pad 1.5mm")
     (path /5BB86F2C/5BD16C3E)
@@ -2303,7 +2303,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer F.Cu) (tedit 5BC3A1B9) (tstamp 5BC3DE25)
-    (at 145.4404 88.5952 270)
+    (at 128.016 89.1032 270)
     (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
     (tags "Mesurement Point Round SMD Pad 1.5mm")
     (path /5BB86F2C/5BD16C37)
@@ -2320,7 +2320,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5BC3A305) (tstamp 5BC3DE9F)
-    (at 156.9974 94.3737 270)
+    (at 139.573 94.8817 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5BB86F2C/5BD16DED)
@@ -2356,7 +2356,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5BC3A31D) (tstamp 5BC3E09D)
-    (at 153.8859 99.1997)
+    (at 136.4615 99.7077)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5BB86F2C/5BD16CD9)
@@ -2392,7 +2392,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5BC3A2FD) (tstamp 5BC3E12D)
-    (at 157.7594 90.4367)
+    (at 140.335 90.9447)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5BB86F2C/5BD16CB9)
@@ -2428,7 +2428,7 @@
   )
 
   (module Inductors_SMD:L_Vishay_IHLP-4040 (layer F.Cu) (tedit 5BC3A182) (tstamp 5BC3DFAB)
-    (at 146.7104 100.0887 270)
+    (at 129.286 100.5967 270)
     (descr "Inductor, Vishay, IHLP series, 10.2mmx10.2mm")
     (tags "inductor vishay ihlp smd")
     (path /5BB86F2C/5BD16C98)
@@ -4122,7 +4122,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC39E31) (tstamp 5BC3E8E9)
-    (at 175.0314 92.0242)
+    (at 157.8102 92.5322)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F29/5BB875B8)
@@ -4197,7 +4197,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC39E4C) (tstamp 5BC3EA09)
-    (at 171.2214 95.0722 180)
+    (at 154.0002 95.5802 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F29/5BBF5660)
@@ -4272,7 +4272,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC39E00) (tstamp 5BC3E9D9)
-    (at 175.0314 88.7857 180)
+    (at 157.8102 89.2937 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F29/5BB9AE19)
@@ -4308,7 +4308,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC39F40) (tstamp 5BC3E8B9)
-    (at 169.2529 85.1662 180)
+    (at 152.0317 85.6742 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F29/5BC2428E)
@@ -4344,7 +4344,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5BC39F0C) (tstamp 5BC3E9A9)
-    (at 173.3804 100.0887 90)
+    (at 156.1592 100.5967 90)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5BB86F29/5BBBEAA9)
@@ -4380,7 +4380,7 @@
   )
 
   (module Capacitors_SMD:C_1210 (layer F.Cu) (tedit 5BC39DBC) (tstamp 5BC3E979)
-    (at 169.1894 82.7532 180)
+    (at 151.9682 83.2612 180)
     (descr "Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1210")
     (path /5BB86F29/5BBCE509)
@@ -4452,7 +4452,7 @@
   )
 
   (module Capacitors_SMD:C_1210 (layer F.Cu) (tedit 5BC39DCA) (tstamp 5BC3E949)
-    (at 169.1894 79.5782 180)
+    (at 151.9682 80.0862 180)
     (descr "Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1210")
     (path /5BB86F29/5BC8FEA3)
@@ -5525,7 +5525,7 @@
   )
 
   (module Inductors_SMD:L_Vishay_IHLP-4040 (layer F.Cu) (tedit 5BC39E6C) (tstamp 5BC3EC0E)
-    (at 163.9824 100.0887 270)
+    (at 146.7612 100.5967 270)
     (descr "Inductor, Vishay, IHLP series, 10.2mmx10.2mm")
     (tags "inductor vishay ihlp smd")
     (path /5BB86F29/5BB98C10)
@@ -6693,7 +6693,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5BC39E69) (tstamp 5BC3EAC0)
-    (at 174.2694 94.3737 270)
+    (at 157.0482 94.8817 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5BB86F29/5BBF579B)
@@ -6729,7 +6729,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5BC39DF3) (tstamp 5BC3EB20)
-    (at 175.0314 90.4367)
+    (at 157.8102 90.9447)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5BB86F29/5BB9AE0E)
@@ -6765,7 +6765,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5BC39EFF) (tstamp 5BC3EAF0)
-    (at 171.1579 99.1997)
+    (at 153.9367 99.7077)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5BB86F29/5BBBB2FC)
@@ -7238,7 +7238,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer F.Cu) (tedit 5BC39FD3) (tstamp 5BC3EAA6)
-    (at 162.7124 88.5952 270)
+    (at 145.4912 89.1032 270)
     (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
     (tags "Mesurement Point Round SMD Pad 1.5mm")
     (path /5BB86F29/5BB96CFD)
@@ -7255,7 +7255,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Round-SMD-Pad_Small (layer F.Cu) (tedit 5BC39FD5) (tstamp 5BC3EA97)
-    (at 162.7124 91.1352 270)
+    (at 145.4912 91.6432 270)
     (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
     (tags "Mesurement Point Round SMD Pad 1.5mm")
     (path /5BB86F29/5BB96F26)
