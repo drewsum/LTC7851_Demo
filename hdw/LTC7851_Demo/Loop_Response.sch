@@ -149,4 +149,6 @@ $EndComp
 Wire Wire Line
 	5640 4130 5640 4050
 Connection ~ 5640 4050
+Text Notes 540  690  0    100  ~ 20
+Open Loop Transfer Function Test Components
 $EndSCHEMATC

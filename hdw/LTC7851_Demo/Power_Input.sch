@@ -952,4 +952,6 @@ F 3 "" H 7940 5690 50  0001 C CNN
 $EndComp
 Text GLabel 8040 5140 0    50   Input ~ 0
 POS12_PGOOD
+Text Notes 540  690  0    100  ~ 20
+Power Input
 $EndSCHEMATC

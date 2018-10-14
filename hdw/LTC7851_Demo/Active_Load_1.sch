@@ -539,4 +539,6 @@ F 3 "" H 3920 4930 50  0001 C CNN
 	1    3920 4930
 	1    0    0    -1  
 $EndComp
+Text Notes 540  690  0    100  ~ 20
+Active Load Driver and Active Load Bank 1
 $EndSCHEMATC
