@@ -124,10 +124,10 @@ F 3 "~" H 1830 2260 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole MH1005
+L Mechanical:MountingHole MH1003
 U 1 1 5BD5294A
 P 3330 2260
-F 0 "MH1005" H 3330 2460 50  0000 C CNN
+F 0 "MH1003" H 3330 2460 50  0000 C CNN
 F 1 "MountingHole" H 3330 2385 50  0000 C CNN
 F 2 "Mounting_Holes:MountingHole_3mm" H 3330 2260 50  0001 C CNN
 F 3 "~" H 3330 2260 50  0001 C CNN
@@ -135,10 +135,10 @@ F 3 "~" H 3330 2260 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole MH1002
+L Mechanical:MountingHole MH1004
 U 1 1 5BD52A0A
 P 1830 3010
-F 0 "MH1002" H 1830 3210 50  0000 C CNN
+F 0 "MH1004" H 1830 3210 50  0000 C CNN
 F 1 "MountingHole" H 1830 3135 50  0000 C CNN
 F 2 "Mounting_Holes:MountingHole_3mm" H 1830 3010 50  0001 C CNN
 F 3 "~" H 1830 3010 50  0001 C CNN
