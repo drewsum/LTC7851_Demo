@@ -289,8 +289,6 @@ Wire Wire Line
 Connection ~ 6810 1710
 Wire Wire Line
 	6810 1710 6810 1810
-Text GLabel 5430 3110 0    50   Input ~ 0
-POS5_SMOD
 $Comp
 L Custom_Library:R_Custom R?
 U 1 1 5BD16CB9
@@ -943,8 +941,6 @@ Wire Wire Line
 	5010 3410 5010 5140
 Wire Wire Line
 	3060 3410 5010 3410
-Text GLabel 5430 2510 0    50   Input ~ 0
-POS5_RUN
 Text Label 3160 3310 0    50   ~ 0
 POS5_ISNS2_+
 Text Label 3160 3410 0    50   ~ 0
@@ -966,4 +962,16 @@ Text Notes 540  690  0    100  ~ 20
 +5V Phase 2
 NoConn ~ 5430 2810
 NoConn ~ 5430 2910
+NoConn ~ 5430 3110
+$Comp
+L Custom_Library:+5.5V_MNG #PWR?
+U 1 1 5BCC10F1
+P 5430 2510
+F 0 "#PWR?" H 5430 2360 50  0001 C CNN
+F 1 "+5.5V_MNG" V 5430 2650 50  0000 L CNN
+F 2 "" H 5430 2510 50  0001 C CNN
+F 3 "" H 5430 2510 50  0001 C CNN
+	1    5430 2510
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

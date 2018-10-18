@@ -136,8 +136,6 @@ Text GLabel 9090 3870 2    50   Output ~ 0
 POS5_RUN
 Text GLabel 5530 1920 0    40   Input ~ 0
 ~POS5_THDN
-Text GLabel 8800 5690 2    50   Output ~ 0
-POS5_SMOD
 Text GLabel 9040 2060 1    50   UnSpc ~ 0
 POS5_IAVG
 $Comp
@@ -250,65 +248,6 @@ Text GLabel 1560 1760 0    50   UnSpc ~ 0
 POS5_EXTVCC
 Wire Wire Line
 	1560 1760 1640 1760
-$Comp
-L Custom_Library:R_Custom R?
-U 1 1 5BD55A5E
-P 8720 5470
-AR Path="/5BB2595E/5BD55A5E" Ref="R?"  Part="1" 
-AR Path="/5BAAE0FA/5BD55A5E" Ref="R?"  Part="1" 
-AR Path="/5BB86F23/5BD55A5E" Ref="R?"  Part="1" 
-AR Path="/5BB86F26/5BD55A5E" Ref="R309"  Part="1" 
-F 0 "R309" H 8620 5470 50  0000 R CNN
-F 1 "10k" V 8720 5470 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 8720 5470 50  0001 C CNN
-F 3 "" H 8720 5470 50  0001 C CNN
-F 4 "0603" H 8800 5550 50  0000 L CNN "display_footprint"
-F 5 "1%" H 8800 5470 50  0000 L CNN "Tolerance"
-F 6 "1/10W" H 8800 5390 50  0000 L CNN "Wattage"
-F 7 "RHM10KADCT-ND" H 9020 5870 60  0001 C CNN "Digi-Key PN"
-	1    8720 5470
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Custom_Library:+5.5V_MNG #PWR0328
-U 1 1 5BD55BF1
-P 8720 5320
-F 0 "#PWR0328" H 8720 5170 50  0001 C CNN
-F 1 "+5.5V_MNG" H 8720 5460 50  0000 C CNN
-F 2 "" H 8720 5320 50  0001 C CNN
-F 3 "" H 8720 5320 50  0001 C CNN
-	1    8720 5320
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8800 5690 8720 5690
-Wire Wire Line
-	8720 5690 8720 5620
-$Comp
-L Connector_Generic:Conn_02x01 J303
-U 1 1 5BD5614E
-P 8720 5970
-F 0 "J303" H 8770 6070 50  0000 C CNN
-F 1 "SMOD" H 8770 5870 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8720 5970 50  0001 C CNN
-F 3 "~" H 8720 5970 50  0001 C CNN
-	1    8720 5970
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8720 5770 8720 5690
-Connection ~ 8720 5690
-$Comp
-L power:GND #PWR0329
-U 1 1 5BD56685
-P 8720 6270
-F 0 "#PWR0329" H 8720 6020 50  0001 C CNN
-F 1 "GND" H 8720 6120 50  0000 C CNN
-F 2 "" H 8720 6270 50  0001 C CNN
-F 3 "" H 8720 6270 50  0001 C CNN
-	1    8720 6270
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J302
 U 1 1 5BD56F93
