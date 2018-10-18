@@ -89,28 +89,6 @@ Connection ~ 4560 1110
 Text GLabel 5430 2610 0    40   Output ~ 0
 ~POS5_THDN
 $Comp
-L Custom_Library:TP TP401
-U 1 1 5BB96CFD
-P 5430 2810
-F 0 "TP401" V 5430 2960 50  0000 L CNN
-F 1 "TP" H 5430 2960 50  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5430 2810 60  0001 C CNN
-F 3 "" H 5430 2810 60  0000 C CNN
-	1    5430 2810
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Custom_Library:TP TP402
-U 1 1 5BB96F26
-P 5430 2910
-F 0 "TP402" V 5430 3060 50  0000 L CNN
-F 1 "TP" H 5430 3060 50  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5430 2910 60  0001 C CNN
-F 3 "" H 5430 2910 60  0000 C CNN
-	1    5430 2910
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR0418
 U 1 1 5BB9709A
 P 6810 4590
@@ -297,8 +275,6 @@ Wire Wire Line
 Connection ~ 6810 1710
 Wire Wire Line
 	6810 1710 6810 1810
-Text GLabel 5430 3110 0    50   Input ~ 0
-POS5_SMOD
 $Comp
 L Custom_Library:R_Custom R406
 U 1 1 5BB9AE0E
@@ -1199,8 +1175,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 5460 3850 5110
 Connection ~ 3850 5110
-Text GLabel 5430 2510 0    50   Input ~ 0
-POS5_RUN
 Wire Wire Line
 	7940 5730 7940 5810
 $Comp
@@ -1242,4 +1216,18 @@ Wire Wire Line
 Connection ~ 6810 4010
 Text Notes 540  690  0    100  ~ 20
 +5V Phase 1
+NoConn ~ 5430 2810
+NoConn ~ 5430 2910
+NoConn ~ 5430 3110
+$Comp
+L Custom_Library:+5.5V_MNG #PWR?
+U 1 1 5BCCA9E9
+P 5430 2510
+F 0 "#PWR?" H 5430 2360 50  0001 C CNN
+F 1 "+5.5V_MNG" V 5430 2650 50  0000 L CNN
+F 2 "" H 5430 2510 50  0001 C CNN
+F 3 "" H 5430 2510 50  0001 C CNN
+	1    5430 2510
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

@@ -29,18 +29,6 @@ F 4 "36-9900-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:Screw MK1005
-U 1 1 5BC1118A
-P 7220 2210
-F 0 "MK1005" H 7220 2310 50  0000 C CNN
-F 1 "4-40 Screw" H 7220 2410 50  0000 C CNN
-F 2 "" H 7220 2460 50  0001 C CNN
-F 3 "" H 7220 2460 50  0001 C CNN
-F 4 "36-9900-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
-	1    7220 2210
-	1    0    0    -1  
-$EndComp
-$Comp
 L Custom_Library:Screw MK1009
 U 1 1 5BC11270
 P 7970 2210
@@ -62,18 +50,6 @@ F 2 "" H 6470 3210 50  0001 C CNN
 F 3 "" H 6470 3210 50  0001 C CNN
 F 4 "36-9900-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    6470 2960
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Library:Screw MK1006
-U 1 1 5BC113F5
-P 7220 2960
-F 0 "MK1006" H 7220 3060 50  0000 C CNN
-F 1 "4-40 Screw" H 7220 3160 50  0000 C CNN
-F 2 "" H 7220 3210 50  0001 C CNN
-F 3 "" H 7220 3210 50  0001 C CNN
-F 4 "36-9900-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
-	1    7220 2960
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -101,18 +77,6 @@ F 4 "36-8400-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:Standoff MK1007
-U 1 1 5BC12310
-P 7220 3720
-F 0 "MK1007" H 7220 3870 50  0000 C CNN
-F 1 "4-40 Standoff" H 7220 3970 50  0000 C CNN
-F 2 "" H 7220 4070 50  0001 C CNN
-F 3 "" H 7220 4070 50  0001 C CNN
-F 4 "36-8400-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
-	1    7220 3720
-	1    0    0    -1  
-$EndComp
-$Comp
 L Custom_Library:Standoff MK1011
 U 1 1 5BC1235A
 P 7970 3720
@@ -134,18 +98,6 @@ F 2 "" H 6470 4820 50  0001 C CNN
 F 3 "" H 6470 4820 50  0001 C CNN
 F 4 "36-8400-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    6470 4470
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Library:Standoff MK1008
-U 1 1 5BC1253B
-P 7220 4470
-F 0 "MK1008" H 7220 4620 50  0000 C CNN
-F 1 "4-40 Standoff" H 7220 4720 50  0000 C CNN
-F 2 "" H 7220 4820 50  0001 C CNN
-F 3 "" H 7220 4820 50  0001 C CNN
-F 4 "36-8400-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
-	1    7220 4470
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -173,20 +125,9 @@ F 3 "~" H 1830 2260 50  0001 C CNN
 $EndComp
 $Comp
 L Mechanical:MountingHole MH1003
-U 1 1 5BD52910
-P 2580 2260
-F 0 "MH1003" H 2580 2460 50  0000 C CNN
-F 1 "MountingHole" H 2580 2385 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm" H 2580 2260 50  0001 C CNN
-F 3 "~" H 2580 2260 50  0001 C CNN
-	1    2580 2260
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH1005
 U 1 1 5BD5294A
 P 3330 2260
-F 0 "MH1005" H 3330 2460 50  0000 C CNN
+F 0 "MH1003" H 3330 2460 50  0000 C CNN
 F 1 "MountingHole" H 3330 2385 50  0000 C CNN
 F 2 "Mounting_Holes:MountingHole_3mm" H 3330 2260 50  0001 C CNN
 F 3 "~" H 3330 2260 50  0001 C CNN
@@ -194,25 +135,14 @@ F 3 "~" H 3330 2260 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole MH1002
+L Mechanical:MountingHole MH1004
 U 1 1 5BD52A0A
 P 1830 3010
-F 0 "MH1002" H 1830 3210 50  0000 C CNN
+F 0 "MH1004" H 1830 3210 50  0000 C CNN
 F 1 "MountingHole" H 1830 3135 50  0000 C CNN
 F 2 "Mounting_Holes:MountingHole_3mm" H 1830 3010 50  0001 C CNN
 F 3 "~" H 1830 3010 50  0001 C CNN
 	1    1830 3010
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH1004
-U 1 1 5BD52A11
-P 2580 3010
-F 0 "MH1004" H 2580 3210 50  0000 C CNN
-F 1 "MountingHole" H 2580 3135 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm" H 2580 3010 50  0001 C CNN
-F 3 "~" H 2580 3010 50  0001 C CNN
-	1    2580 3010
 	1    0    0    -1  
 $EndComp
 $Comp

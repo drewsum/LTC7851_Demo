@@ -101,34 +101,6 @@ Connection ~ 4560 1110
 Text GLabel 5430 2610 0    40   Output ~ 0
 ~POS5_THDN
 $Comp
-L Custom_Library:TP TP?
-U 1 1 5BD4BE33
-P 5430 2810
-AR Path="/5BB86F29/5BD4BE33" Ref="TP?"  Part="1" 
-AR Path="/5BB86F2C/5BD4BE33" Ref="TP?"  Part="1" 
-AR Path="/5BB86F32/5BD4BE33" Ref="TP701"  Part="1" 
-F 0 "TP701" V 5430 2960 50  0000 L CNN
-F 1 "TP" H 5430 2960 50  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5430 2810 60  0001 C CNN
-F 3 "" H 5430 2810 60  0000 C CNN
-	1    5430 2810
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Custom_Library:TP TP?
-U 1 1 5BD4BE3A
-P 5430 2910
-AR Path="/5BB86F29/5BD4BE3A" Ref="TP?"  Part="1" 
-AR Path="/5BB86F2C/5BD4BE3A" Ref="TP?"  Part="1" 
-AR Path="/5BB86F32/5BD4BE3A" Ref="TP702"  Part="1" 
-F 0 "TP702" V 5430 3060 50  0000 L CNN
-F 1 "TP" H 5430 3060 50  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5430 2910 60  0001 C CNN
-F 3 "" H 5430 2910 60  0000 C CNN
-	1    5430 2910
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5BD4BE41
 P 6810 4590
@@ -324,8 +296,6 @@ Wire Wire Line
 Connection ~ 6810 1710
 Wire Wire Line
 	6810 1710 6810 1810
-Text GLabel 5430 3110 0    50   Input ~ 0
-POS5_SMOD
 $Comp
 L Custom_Library:R_Custom R?
 U 1 1 5BD4BEB5
@@ -1015,8 +985,6 @@ Wire Wire Line
 	5010 3410 5010 5140
 Wire Wire Line
 	3060 3410 5010 3410
-Text GLabel 5430 2510 0    50   Input ~ 0
-POS5_RUN
 Text Label 3160 3310 0    50   ~ 0
 POS5_ISNS4_+
 Text Label 3160 3410 0    50   ~ 0
@@ -1036,4 +1004,20 @@ Wire Wire Line
 Connection ~ 6810 4010
 Text Notes 540  690  0    100  ~ 20
 +5V Phase 4
+NoConn ~ 5430 2810
+NoConn ~ 5430 2910
+NoConn ~ 5430 3110
+$Comp
+L Custom_Library:+5.5V_MNG #PWR?
+U 1 1 5BCB24CC
+P 5430 2510
+AR Path="/5BB86F29/5BCB24CC" Ref="#PWR?"  Part="1" 
+AR Path="/5BB86F32/5BCB24CC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5430 2360 50  0001 C CNN
+F 1 "+5.5V_MNG" V 5430 2650 50  0000 L CNN
+F 2 "" H 5430 2510 50  0001 C CNN
+F 3 "" H 5430 2510 50  0001 C CNN
+	1    5430 2510
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

@@ -4,3 +4,7 @@
 *.log
 ..gitignore.un~
 .gitignore~
+*.kicad_pcb-bak
+.README.md.un~
+README.md~
+*.csv
