@@ -857,8 +857,6 @@ F 7 "X5R" H 8870 3440 50  0000 R CNN "Dielectric"
 	1    9020 3540
 	1    0    0    -1  
 $EndComp
-Text Notes 3330 6760 0    50   ~ 0
-Remove bulk caps from onsheet when bringing into project
 $Comp
 L Custom_Library:C_Custom C?
 U 1 1 5BD4BFD8
@@ -1012,8 +1010,8 @@ L Custom_Library:+5.5V_MNG #PWR?
 U 1 1 5BCB24CC
 P 5430 2510
 AR Path="/5BB86F29/5BCB24CC" Ref="#PWR?"  Part="1" 
-AR Path="/5BB86F32/5BCB24CC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5430 2360 50  0001 C CNN
+AR Path="/5BB86F32/5BCB24CC" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 5430 2360 50  0001 C CNN
 F 1 "+5.5V_MNG" V 5430 2650 50  0000 L CNN
 F 2 "" H 5430 2510 50  0001 C CNN
 F 3 "" H 5430 2510 50  0001 C CNN
