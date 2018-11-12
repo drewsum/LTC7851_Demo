@@ -812,4 +812,52 @@ F 3 "~" H 3990 1860 50  0001 C CNN
 $EndComp
 Text Notes 540  690  0    100  ~ 20
 +5V Control
+$Comp
+L Connector_Generic:Conn_02x01 J305
+U 1 1 5BD3CCFE
+P 8520 2260
+F 0 "J305" H 8570 2360 50  0000 C CNN
+F 1 "PGOOD" H 8570 2160 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8520 2260 50  0001 C CNN
+F 3 "~" H 8520 2260 50  0001 C CNN
+	1    8520 2260
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0329
+U 1 1 5BD3CD05
+P 8520 2560
+F 0 "#PWR0329" H 8520 2310 50  0001 C CNN
+F 1 "GND" H 8520 2410 50  0000 C CNN
+F 2 "" H 8520 2560 50  0001 C CNN
+F 3 "" H 8520 2560 50  0001 C CNN
+	1    8520 2560
+	1    0    0    -1  
+$EndComp
+Text GLabel 8520 2060 1    50   UnSpc ~ 0
+POS5_PGOOD_OC
+$Comp
+L Connector_Generic:Conn_02x01 J303
+U 1 1 5BD3DAD1
+P 8020 2260
+F 0 "J303" H 8070 2360 50  0000 C CNN
+F 1 "THDN" H 8070 2160 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8020 2260 50  0001 C CNN
+F 3 "~" H 8020 2260 50  0001 C CNN
+	1    8020 2260
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0328
+U 1 1 5BD3DAD8
+P 8020 2560
+F 0 "#PWR0328" H 8020 2310 50  0001 C CNN
+F 1 "GND" H 8020 2410 50  0000 C CNN
+F 2 "" H 8020 2560 50  0001 C CNN
+F 3 "" H 8020 2560 50  0001 C CNN
+	1    8020 2560
+	1    0    0    -1  
+$EndComp
+Text GLabel 8020 2060 1    40   UnSpc ~ 0
+~POS5_THDN
 $EndSCHEMATC
